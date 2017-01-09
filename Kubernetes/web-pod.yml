@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: janakiramm/web
+      image: xiaopeng163/docker-flask-demo:1.0
       ports:
         - containerPort: 5000
           name: http

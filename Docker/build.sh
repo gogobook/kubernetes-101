@@ -1,1 +1,1 @@
-docker build . -t janakiramm/web
+docker build . -t xiaopeng163/docker-flask-demo:1.0
