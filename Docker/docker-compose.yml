@@ -1,9 +1,11 @@
-web:
-  image: xiaopeng163/docker-flask-demo:1.0
-  ports:
-   - "3000:5000"
-  links:
-   - redis
-redis:
-  image: redis:latest
-  container_name: redis
+version: '2'
+services:
+  web:
+    image: xiaopeng163/docker-flask-demo:1.0
+    ports:
+     - "3000:5000"
+    links:
+     - redis
+  redis:
+    image: redis:latest
+    container_name: redis
